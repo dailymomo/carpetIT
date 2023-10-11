@@ -1,0 +1,15 @@
+.shopping-cart{
+    position: absolute;
+    background-color: white;
+    margin-top: 20px;
+    margin-left:-150px;
+    height:500px;
+    width: 200px;
+    z-index: 9999;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.title1{
+    font-size: 30px;
+}

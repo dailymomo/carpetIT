@@ -1,0 +1,44 @@
+.product {
+  top: 130px;
+  position: relative;
+  max-width: 90%;
+  min-width: 50%;
+  background-color: #feeec8;
+  z-index: 2;
+}
+
+.product .boxItems {
+  transition: 0.5s;
+  display: flex;
+  height:160px;
+  min-width: 200px;
+
+  
+}
+/* .product img {
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  margin-right: 20px;
+  z-index: -1;
+} */
+.product .details {
+  width: 100%;
+}
+.product .details h3 {
+  font-size: 17px;
+}
+.product .details p {
+  margin: 10px 0;
+  height: 47px;
+}
+.product .button {
+  position: relative;
+  font-size: 25px;
+  top: 15px;
+  left: 70%;
+  margin-bottom: 1%;  
+  z-index: 2;
+}
+
+

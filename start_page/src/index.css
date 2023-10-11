@@ -1,0 +1,297 @@
+/**
+ * Module Name: index.css
+ * Date of Creation: 20/08/2022
+ * Creator: Hao Xu
+ * Summary: css sheet for the index, controls common css styles of elements thats shared between classes.
+ * Variable Accessed: 
+ */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.App{
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  max-height: 2500px;
+  max-width: 1920px;
+  align-items: center;
+  min-width: 711px;
+  background: #FFE24E;
+  min-height: 800px;
+  
+}
+
+.Header{
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+  background: #FFFFFF;
+}
+
+.LogIn,.Account{
+  position: absolute;
+  
+  width: 6vw;
+  left: 74vw;
+  top: 2.5vh;
+  margin: auto;
+
+  
+  background:#D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 2.8vh;
+  text-align: center;
+  
+
+  color: #000000;
+
+
+}
+
+.SignUp,.LogOut{
+  position: absolute;
+  width: 5vw;
+  left: 81vw;
+  top: 2.5vh;
+  margin: auto;
+
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 2.8vh;
+  text-align: center;
+
+  color: #000000;
+}
+
+.About{
+  position: absolute;
+  width: 5vw;
+  left: 87vw;
+  top: 2.5vh;
+  margin: auto;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 2.8vh;
+
+  color: #000000;
+}
+
+.Content {
+  position:relative;
+
+  margin: auto;
+  max-width: 80vw;
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+
+  background:#D9D9D9;
+  box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 200%;
+  line-height:2.8vh;
+
+  color:#000000;
+}
+
+.Content h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:bold;
+}
+
+.Header h1{
+  position: absolute;
+  left: 2vw;
+  top: 1vh;
+  
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: 400;
+  font-size: 250%;
+  line-height: 61px;
+  
+  color: #000000;
+
+}
+
+
+#Missing {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  top: 50vh;
+}
+
+a{
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+a:hover{
+  color:darkblue;
+}
+
+button:hover{
+  background-color: #FFE24E;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.Footer{
+  margin-top: 10%;
+  height:100%
+}
+
+.SignUp,.LogOut{
+  position: absolute;
+  width: 5vw;
+  left: 81vw;
+  top: 2.5vh;
+  margin: auto;
+
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 2.8vh;
+  text-align: center;
+
+  color: #000000;
+}
+
+  /* User */
+  
+  .profile {
+    cursor: pointer;
+    position: relative;
+    right: 0vw;
+    width: 0vw;
+    
+    top: 1.8vh;
+    margin: auto;
+    left: 44%;
+
+  }
+
+  .profile button {
+    width: 60px;
+    height: 60px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+    object-fit: cover;
+  }
+  .openProfile {
+    color: #000;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    width: 250px;
+    background: #fff;
+    z-index: 5;
+  }
+  .openProfile .box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    transition: 0.5s;
+  }
+  .openProfile .icon {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  .openProfile h4 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .openProfile button:hover {
+    background: rgba(147, 75, 255, 0.075);
+  }
+  header.active {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 4px 0 rgb(115 115 115 / 20%);
+    z-index: 9999;
+    background: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    header .search {
+      display: none;
+    }
+  }
+  .profile a {
+    text-decoration: none;
+  }
+
+  

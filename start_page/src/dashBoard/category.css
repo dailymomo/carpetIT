@@ -1,0 +1,71 @@
+
+.category {
+  position:relative;
+  top: 90px;
+  margin: auto;
+  max-width: 50vw;
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+
+  background-color: #feeec8;
+  box-shadow:0px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 200%;
+  line-height:2.8vh;
+
+  color:#000000;
+}
+.category .box {
+  border-radius: 0;
+  text-align: center;
+}
+.category p {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+.category img {
+  margin: auto;
+}
+.category .box {
+  margin: 5px;
+  cursor: pointer;
+}
+/*---------------control-btn-------------*/
+.control-btn button {
+  background: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  padding: 2px;
+}
+
+.control-btn .next {
+  position: absolute;
+  top: 40%;
+  right: -20px;
+}
+
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  left: -20px;
+  z-index: 2;
+}
+.control-btn .icon {
+  font-size: 25px;
+}
+/*---------------control-btn-------------*/

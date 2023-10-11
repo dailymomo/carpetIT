@@ -1,0 +1,147 @@
+/**
+ * Module Name: Register.css
+ * Date of Creation: 23/08/2022
+ * Creator: Hao Xu
+ * Summary: Css sheet for Register page
+ * Variable Accessed: 
+ */
+
+section {
+    position: relative;
+    width: 100%;
+    top: 22vh;
+    margin: auto;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #FDF4C9 
+}
+
+section2 {
+    position: relative;
+    left: 115px;
+    width: 100%;
+    top: 10vh;
+    margin: auto;
+    max-width: 200px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #FDF4C9 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: black;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+    
+}
+
+
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+   
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.line {
+    position: relative;
+    top: 20%;
+    color: black;
+    display: inline-block;
+
+}
+
+.line > a{
+    font-size: 22px;
+    color: black;
+    text-decoration: underline;
+   
+}
+
+p > a{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+#regSignIn{
+   position: relative;
+   top: 1vh;
+}
+
+
+#LogsignIn{
+    margin-top: 1vh;
+   
+}
+

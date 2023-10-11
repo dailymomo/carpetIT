@@ -1,0 +1,314 @@
+/**
+ * Module Name: Dashboard.css
+ * Date of Creation: 27/08/2022
+ * Creator: Hao Xu
+ * Summary: css for dashboard page
+ * Variable Accessed: 
+ */
+
+
+ /* width */
+ ::-webkit-scrollbar {
+  
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #010101; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+.Information{
+    position: relative;
+    width: 100%;
+    height: 12.8vh;
+    top: 10vh;
+    mix-blend-mode: normal;
+   
+}
+
+.SearchForm{
+    position: absolute;
+    width: 35vw;
+    left: 64vw;
+    top: 14vh;
+    display: block;
+    
+}
+
+h2.headertekst {
+    text-align: center;
+}
+
+
+
+
+#search{
+    width: 80%;
+    min-height: 30px;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    top: 7px;
+    right: 0px;
+    outline: none;
+}
+  
+.searchForm>label {
+    position: relative;
+    left: -99999px;
+   
+}
+
+.FaSearch{
+    position: relative;
+    top: 0 px;
+    right: 10px; 
+}
+
+.RecordDisplay{
+    position:absolute;
+    top: 23vh;
+    left: 3vw;
+    width: 47vw;
+    margin-left: 0%;
+    height: 77vh;
+    overflow-y: auto;
+    
+    min-height: 60vh;
+    background-color: #FDF4C9;
+    border-radius: 20px;
+  
+}
+
+.RecordDisplay > span{
+    font-family: 'Allerta Stencil', sans-serif;
+   
+    height: fit-content;
+   
+}
+
+#Category{
+    position:absolute;
+    left: 1vw;
+}
+
+#Date{
+    position:absolute;
+    left: 11vw;
+}
+
+#Money{
+    position: absolute;
+    left: 20vw;
+}
+
+#Notes{
+    position:absolute;
+    left: 29vw;
+}
+
+
+
+.Record{
+    position: relative;
+    top: 5vh;
+    height: 5vh;   
+}
+
+
+
+.Record img{
+    top: 0.5vh;
+    width:2vw;
+    height:3.5vh;
+    left: 2vw;
+    float:left;
+
+}
+
+.RecordDetails{
+    position: relative;
+    left: 9vw;
+    width: 37vw;
+    height: 5vh;
+    font-family: 'Inter', sans-serif;
+ 
+   
+}
+
+.TimeDisplay{
+    width: 12vw;
+    position: absolute;
+    left: 3.5vw;
+    top: 3vh;
+    font-family: 'Allerta Stencil', sans-serif;
+    z-index: 10;
+}
+
+.Date{
+    position: absolute;
+    left: 1.5vw;
+    top: 1vh;
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.9rem;
+   
+   
+}
+
+.Expenditure{
+ 
+    position: absolute;
+    top: 1vh;
+    left: 11vw;
+    height: fit-content;
+    width: 4vw;
+    text-align: right;
+    font-size: 0.9rem;
+   
+   
+    
+}
+
+.Notes{
+    position: absolute;
+    left: 20vw;
+    text-align: center;
+    height: fit-content;
+    font-size: 0.9rem;
+    top: 1vh;
+}
+
+.Operation{
+    position: absolute;
+    left: 28vw;
+    text-align: center;
+    height: fit-content;
+    font-size: 0.9rem;
+    top: 1vh;
+}
+
+
+
+
+
+#arrow{
+    position: absolute;
+    top: 3.5vh;
+    
+}
+
+#displayNone{
+    top: 20vh;
+    position: relative;
+    margin: auto;
+   
+    text-align: center;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2rem;
+}
+
+.PieChartContainer{
+    position:absolute;
+    left: 70vw;
+    top: 25vh;
+    height: 20vh;
+    width: 20vw;
+}
+
+.PieChartBackGround{
+    position:absolute;
+    left: 65vw;
+    height: 40vh;
+    width: 30vw;
+    top: 23vh;
+    border-radius: 20px;
+    
+    background-color: #FDF4C9;
+}
+
+.VerticalBarChartContainer{
+
+    position:absolute;
+    left: 65vw;
+    top: 70vh;
+    height: 30vh;
+    width: 30vw;
+
+}
+
+.VerticalBarChartBackground{
+    position:absolute;
+    left: 65vw;
+    height: 30vh;
+    width: 30vw;
+    top: 70vh;
+    border-radius: 20px;
+    
+    background-color: #FDF4C9;
+}
+
+#NoRecords{
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+    width: 35vw;
+    font-size: 2rem;
+  
+    font-family: 'Allerta Stencil', sans-serif;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+  }
+  .container {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  #budgetSection {
+    position: absolute;
+    left:51vw;
+    width: 13vw;
+    top: 23vh;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #FDF4C9;
+    border-radius: 10px
+}
+  
+#budget{
+    border: red solid 2px;
+    position: absolute;
+    top: 150vh;
+    left: 53vw;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 20px;
+
+}

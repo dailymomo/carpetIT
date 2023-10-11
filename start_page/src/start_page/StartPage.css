@@ -1,0 +1,165 @@
+/**
+ * Module Name: StartPage.css
+ * Date of Creation: 22/08/2022
+ * Creator:Hao Xu
+ * Summary:CSS page for startPage
+ * Variable Accessed: 
+ */
+
+.MainSection {
+  position: relative;
+  width: 75%;
+  height: 55vh;
+  left: 12.5%;
+  top: 20vh;
+  
+  background: #FDF4C9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px; 
+}
+
+  
+  .RegisterNow{
+    position: relative;
+    width: 10vw;
+    height: 5vh;
+    top: 20vh;
+    margin-left: 12vw;
+  
+    background: #FFE24E;
+    border-radius: 20px;
+  
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 24px;
+    text-align: center;
+  
+    color: #000000;
+    
+   
+}
+  
+.MainSection h1{
+  position: relative;
+  top: 12vh;
+  margin-left: 10%;
+  width: 20vw;
+  
+  font-family: 'Allerta Stencil', sans-serif;
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  
+}
+  
+.MainSection p{
+  position: relative;
+  top:16vh;
+  margin-left: 5%;
+  width: 30vw;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+    
+}
+
+.MainSection > img{
+  position:absolute;
+  display: block;
+  width: 30%;
+  height: 35vh;
+  margin-left: 55%;
+  bottom: 10vh;
+  
+  
+}
+  
+.BottomSection{
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  top: 35vh;
+  display: flex;
+  justify-content: space-evenly;
+  background: #FDF4C9;
+}
+
+span{
+    position: relative;
+    top: 2vh;
+    height: 5vh;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+
+    color: #000000;
+    
+}
+
+#small {
+  position: relative;
+  top: 1vh;
+  margin: auto;
+  height: 20vh;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  width: 10em;
+  text-align: center;
+
+  color: #000000;
+}
+
+img{
+  position: relative;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: 100% ;
+}
+
+br{
+  display: block;
+  margin: 10px 0;
+ 
+}
+
+.Footer{
+  position: relative;
+  width: 100%;
+  height: 3vh;
+  top:20vh;
+  background: #FFFFFF;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  
+}
+
+
+.bottom_img{
+  width: 100px;
+  height: 100px;
+}
+
+

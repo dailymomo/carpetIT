@@ -1,0 +1,68 @@
+.order {
+    top: 100px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10%;
+    max-width: fit-content;
+    margin-bottom: 5%;
+    
+  }
+
+  .order .container {
+    width: 100%;
+    background: #fff;
+  }
+
+  .order .num h1 {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background: #feeec8;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .order h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .order p {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .order .box:nth-child(2) h1 {
+    background: #ceeffe;
+   
+  }
+  .order .box:nth-child(3) h1 {
+    background: #d4f8c4;
+  }
+  .order .box:nth-child(4) h1 {
+    background: #d8dafe;
+  }
+
+  .box{
+    width: 100%;
+    height: auto;
+    margin-right: 5px;
+    
+  }
+
+  .box:last-child {
+    margin-right: 0;
+  }
+
+  .cart-container{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 95%;
+    width:50px;
+    height: 50px;
+  }
+  .cart-icon{
+    width: 50px;
+    width: 50px;
+  }
+ 
+  
+  
